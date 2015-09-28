@@ -1,7 +1,5 @@
-# SpringMVCMyBatis
+# SpringMVC跟MyBatis配合使用的例子
 
-<h1>SpringMVC跟MyBatis配合使用的例子</h1>
-<br />
 1、web.xml中配置Spring<br />
 2、web.xml中配置SpringMVC<br />
 3、web.xml中配置Spring编码过滤器<br />
