@@ -10,9 +10,10 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
+	<!-- 使用SpringMVC的注解驱动 -->
 	<mvc:annotation-driven />
 
-	<!-- 试图解析器 -->
+	<!-- 视图解析器配置视图前缀后缀 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/jsp/" />
